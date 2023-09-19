@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3 id="detail">Have Fun😉</h3>
+    <div class="gameScreen">
+        <div class="dice">
+            <div class="leftDice">
+                <img src="./images/dice_1.png" id="diceInLeft" class="diceImg" alt="imageOne" />
+            </div>
+            <div class="rightDice">
+                <img src="./images/dice_2.png" id="diceInRight" class="diceImg" alt="imageTwo" />
+            </div>
+        </div>
+
+        <div class="actionPanel">
+
+            <button id="editPlayer">Edit Player Name</button>
+
+            <button id="rollDice">Roll</button>
+
+            <button id="newGame">New Game</button>
+        </div>
+        <div class="result">
+            <div id="playerOneWin" class="player1Win">
+                <h4>
+                    <shine>Winner</shine>
+                </h4>
+                <img src="./images/winner.jpg" alt="win" />
+            </div>
+            <div id="playerTwoWin" class="player2Win">
+                <img src="./images/winner.jpg" alt="win" />
+                <h4>Winner</h4>
+            </div>
+        </div>
+        <div class="dashBoard">
+
+            <div class="playerOne">
+                <img src="./images/player1.jpeg" class="playerImg" alt="1" />
+                <p class="player1">Player I</p>
+            </div>
+
+            <div class="scoreOne">
+                <p class="frosted" id="playerOneScore">0</p>
+            </div>
+
+            <div class="scoreTwo">
+                <p class="frosted" id="playerTwoScore">0</p>
+            </div>
+
+            <div class="playerTwo">
+                <img src="./images/player2.jpeg" class="playerImg" alt="1" />
+                <p class="player2">Player II</p>
+            </div>
+        </div>
+
+    </div>
+
+    <Script type="text/javascript" src="app.js"></Script>
+</body>
+
+</html>
